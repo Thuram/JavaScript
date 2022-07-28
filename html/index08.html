@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo JS</title>
+    <link rel="shortcut icon" href="../favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../Estilos/css.css">
+    <style>
+        div#msg{
+            font: normal, 1.5em, arial;
+            background: greenyellow;
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height:200px;
+            text-align: center;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1><strong>DOM</strong></h1>
+    <h2>Eventos em DOM</h2>
+    <div id="msg">1.Interaja...........</div>
+    <p class="mais">2</p>
+    <p>3</p>
+    <p>4</p>
+
+    <!-- HTML -->
+
+    <script>   
+
+    var area = window.document.getElementById('msg')
+
+
+    area.addEventListener('click', clicar)
+    area.addEventListener('mouseenter', entra)
+    area.addEventListener('mouseout', saiu)
+
+    
+        function clicar() { 
+            area.innerText = 'Clicou!'
+            area.style.background = 'red'
+        }
+        function entra() {
+            area.innerText = 'Entrou!'
+            area.style.background = 'yellow'
+        }
+        function saiu() {
+            area.innerText = 'Saiu!'
+            area.style.background = 'blue' 
+        }
+
+    </script>
+</body>
+</html>

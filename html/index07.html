@@ -12,12 +12,41 @@
 <body>
     <h1><strong>DOM</strong></h1>
     <h2>Document.object.model</h2>
-    <div id="saida">Clique em mim</div>
+    <div id="msg">Xereca</div>
+    <p class="mais">aloha</p>
+    <p>bom dia</p>
+    <p>Bom dia Chicago</p>
 
     <!-- HTML -->
 
     <script>    
-         
+        //window.document.write(window.document.URL)
+        var p1 = window.document.getElementsByTagName('p')[2]
+        window.document.write("Esta escrito assim: " + p1.innerText)
+        p1.style.color = 'blue'
+        var corpo = window.document.body
+        corpo.style.background = 'pink'
+
+        document.write(p1.innerHTML)
+
+
+        var d = window.document.getElementById('msg')
+        d.style.textAlign = 'center'
+        d.innerText = 'Estou aguardadndo...'
+
+      
+        var rr = window.document.getElementsByClassName
+        ('mais')
+
+
+        var d = window.document.querySelector('div#msg')
+
+        
+
+
+
+       
+
 
 
     </script>
