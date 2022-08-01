@@ -1,0 +1,45 @@
+*
+{
+   
+}
+
+body 
+{
+    background-color: aqua;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont
+}
+
+header
+{
+    color: white;
+    text-align: center;
+
+
+
+}
+section
+{
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.516);
+}
+
+div#res{
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+
+
+}
+
+footer
+{
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
