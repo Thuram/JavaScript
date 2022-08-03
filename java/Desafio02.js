@@ -1,12 +1,12 @@
 function verificar(){
     var data = new Date()
     var ano = data.getFullYear()
-    var fano = document.getElementById('txtano')
-    var res = document.querySelector('div#res')
+    var fano = window.document.getElementById('txtano')
+    var res = window.document.querySelector('div#res')
     if (fano.value.length == 0 || fano.value > ano) {
         window.alert('verifique os dados')
     } else {
-        var fsexo = document.getElementsByName('radsex')
+        var fsexo = window.document.getElementsByName('radsex')
         var idade = ano - Number(fano.value)
         var genero = ''
         var img = document.createElement('img')

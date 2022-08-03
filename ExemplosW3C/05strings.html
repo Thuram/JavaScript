@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+
+
+    <script>
+        /*
+        let numb = 5;
+        let text = numb.toString();
+        document.getElementById("demo").innerHTML = text.padStart(9,'ABCDEFG ');
+        */
+
+        let text = "Gustavo";
+        const myArr = text.split("");
+        text = "";
+        for (let i = 0; i < myArr.length; i++) {
+            text += myArr[i] + "<br>"
+        }
+        document.getElementById("demo").innerHTML = text;
+
+    </script>
+</body>
+</html>
+
+
+
+
+
