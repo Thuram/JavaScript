@@ -1,6 +1,66 @@
+function tabuada() {
+    var tabuada = document.getElementById('itab')
+    var resultado = document.getElementById('seltab')
+    if (tabuada.value.length == 0) {
+        window.alert('Por favor, digite um número!')
+    }else{
+        var n = Number(tabuada.value)
+        var m = 1
+        resultado.innerHTML = ''
+        while (m <= 10) {
+            let item = document.createElement('option')
+            item.style.width = '150px'
+            item.text = `${n} X ${m} = ${n*m}`
+            resultado.appendChild(item)
+            m++
+        }
+    }
+    
+}
 
 
 
+
+
+
+
+
+
+
+
+/*
+function contar(){
+    var inicio = document.getElementById('iinicio')
+    var fim = document.getElementById('ifim')
+    var passos = document.getElementById('ipassos')
+    var res = document.getElementById('contando')
+    if (inicio.value.length == 0 || fim.value.length == 0 || inicio > passos){
+        res.innerHTML = `Impossivel contar`
+    }else{
+        res.innerHTML = 'Contando '
+        let i = Number(inicio.value)
+        let f = Number(fim.value)
+        let p = Number(passos.value)
+        if (p <= 0){
+            window.alert('Passo invalido! Considerando passo 1')
+            p = 1
+        }
+        if (i < f){
+            for(let c = i; c <= f; c +=p){
+            res.innerHTML += `${c} \u{1F449} `
+            }
+            res.innerHTML += `\u{1F3C1}`
+        }else{
+            for(let c = i; c >= f; c-=p ){
+                res.innerHTML += `${c} \u{1F449}`
+            } res.innerHTML += `\u{1F3C1}`
+        }   
+        
+
+    }
+}
+
+*/
 
 
 /* function verificar(){
