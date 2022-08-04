@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="../Estilos/desafio3.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <script src="../java/Desafio03.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>Contador</h1>
+    </header>
+
+
+    <section>
+        <div id="dados">
+            <p>
+                <label for="iinicio">Inicio:</label>
+                <input min="5" type="number" name="inicio" id="iinicio">
+            </p>
+
+            <p>
+                <label for="ifim">Fim:</label>
+                <input type="number" name="fim" id="ifim">
+            </p>
+            <p>
+                <label for="ipassos">Passos:</label>
+                <input type="number" name="passos" id="ipassos">
+            </p>
+
+
+            <p>
+                <input type="button" value="contar" id="verificar" onclick="contar()">
+            </p>
+        </div>
+        <div id="contando">
+            Preparando a contagem
+            
+        </div>
+    </section>
+    <footer>
+        <p>&copy;CursoemVideo</p>
+    </footer>
+</body>
+</html>

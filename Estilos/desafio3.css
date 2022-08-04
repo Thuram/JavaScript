@@ -1,0 +1,51 @@
+*
+{
+   font-size: 1.1em;
+   font-weight: 500;
+}
+
+body 
+{
+    background-color: rgb(45, 118, 118);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    color: black;
+
+}
+
+header
+{
+    color: white;
+    text-align: center;
+}
+
+section
+{
+    width: 500px;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.516);
+
+}
+
+div#dados{
+    color: black;
+}
+
+
+
+button
+{
+    
+}
+
+
+
+footer
+{
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
