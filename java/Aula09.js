@@ -5,6 +5,8 @@ vetor.push(9) // cria um elemento na ultima posição
 vetor.sort()
 //length tamanho da array            
 
+
+
 for (let pos = 0;pos <= vetor.length;pos++){
     console.log(`A posição ${pos} tem o valor ${vetor[pos]}`)
     
