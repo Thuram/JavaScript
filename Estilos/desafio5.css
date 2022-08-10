@@ -1,0 +1,45 @@
+body{
+    background-color:cadetblue;
+    font: normal 15pt Arial;
+    height: 100vh;
+    background-image: url(../FY8IrhAUsAI0o5E.jfif);    
+    background-position: relative;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+
+    
+
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    width: 500px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.424);
+
+}
+
+div#res{
+    padding: 20px;
+    margin: auto;
+    
+}
+
+select#flista{
+    width: 150px;
+}
+
+footer{
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
